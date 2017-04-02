@@ -59,3 +59,8 @@ errno:10061由于目标计算机积极拒绝，无法连接
 with open('test.txt', 'a', encoding='utf-8') as f :
 	f.write(json.dumps(content, ensure_ascii=False))
 ```
+## 在MarkDown中使用尖括号<>
+在MarkDown中，使用尖括号"<"和">"，会被文本默认为HTML语句。这将导致尖括号本身及尖括号中的内容都不会被显示。
+
+	解决方法：使用转义字符。使用 "&lt;" 代替 “<” , 使用 "&gt;" 代替 ">"。 例如要输出<a>，则需要写为&lt;a&gt;   　注意分号;
+
