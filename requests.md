@@ -1,6 +1,6 @@
 # Resquests自定义
 
-**session()**
+* **session()**
 ```
 import resquests
 
@@ -23,3 +23,4 @@ def DIY_requests():
 	print(response.text)
 ```
 
+* resquests库不支持相对链接
