@@ -64,3 +64,11 @@ with open('test.txt', 'a', encoding='utf-8') as f :
 
 	解决方法：使用转义字符。使用 "&lt;" 代替 “<” , 使用 "&gt;" 代替 ">"。 例如要输出<a>，则需要写为&lt;a&gt;   　注意分号;
 
+## django使用pymysql连接数据库
+在工程的__init__.py文件中，添加如下代码：
+```
+import pymysql
+pymysql.install_as_MySQLdb()
+```
+## python3 命令行运行，找不到自定义的 .py 模块
+是因为路径问题
