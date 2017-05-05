@@ -24,3 +24,4 @@ def DIY_requests():
 ```
 
 * resquests库不支持相对链接
+* reuqests 需要url有http://
