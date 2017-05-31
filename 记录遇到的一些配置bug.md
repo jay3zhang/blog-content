@@ -72,3 +72,7 @@ pymysql.install_as_MySQLdb()
 ```
 ## python3 命令行运行，找不到自定义的 .py 模块
 是因为路径问题
+
+## selenium3.x 调用firefox时需要geckodriver，禁用geckodriver的话需要firefox 48以下的版本。
+解决办法：https://developer.mozilla.org/en-US/docs/Mozilla/QA/Marionette/WebDriver
+
