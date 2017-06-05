@@ -56,3 +56,16 @@ enumerate函数有个可选参数指定输出索引的初始值（默认为0）�
 8 40
 ```
 
+* collections 模块的 Counter()-计数器
+```
+In: Counter('aabcB')
+Out: {'a':2,'b':1,'c':1,'B':1}
+```
+
+* 字符串替换 str.replace *vs* re.sub
+	- 能用replace(),尽量用
+	- 它避免了正则表达式的所有缺陷（如转义）
+	- 更快
+[stackoverflow回答](https://stackoverflow.com/questions/5668947/use-pythons-string-replace-vs-re-sub)
+
+
