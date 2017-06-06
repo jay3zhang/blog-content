@@ -68,4 +68,6 @@ Out: {'a':2,'b':1,'c':1,'B':1}
 	- 更快
 [stackoverflow回答](https://stackoverflow.com/questions/5668947/use-pythons-string-replace-vs-re-sub)
 
-
+* zip() 函数
+zip(*argv)
+对于矩阵，zip(*mat) 会使行列互换，第一行为第一列...
