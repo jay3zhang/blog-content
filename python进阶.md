@@ -1,0 +1,19 @@
+## 《python进阶》相关记录
+
+* else 从句
+	- try/else 
+```
+try: ...
+except: ...
+else: ...
+finally: ...
+```
+else语句在try没有异常时执行
+
+	- for/else
+```
+for ...
+	break
+else: ...
+```
+else语句在非break结束for循环的情况下才会执行

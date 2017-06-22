@@ -69,6 +69,7 @@ Out: {'a':2,'b':1,'c':1,'B':1}
 [stackoverflow回答](https://stackoverflow.com/questions/5668947/use-pythons-string-replace-vs-re-sub)
 
 * zip() 函数
+zip() 压缩，zip(* )解压
 zip(*argv)
 对于矩阵，zip(*mat) 会使行列互换，第一行为第一列...
 
@@ -88,3 +89,11 @@ zip(*argv)
 >>> t
 0
 ```
+
+* eval() 函数
+执行字符串或文件中的python表达式
+```
+eval('1+2') = 3
+```
+类似的函数还有exec()-执行字符串或文件中的python语句
+
